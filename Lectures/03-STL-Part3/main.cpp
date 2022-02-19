@@ -28,9 +28,9 @@ int main()
 	// min_element (returns iterator or pointer of minimum element)
 	// max_element (returns iterator or pointer of maximum element)
 
-	// vector<int> v = {4,2,3,4,5,6,7,8,7,8,9};
+	vector<int> v = {4,2,3,4,5,6,7,8,7,8,9};
 	// int arr[10] = {4,2,3,4,5,6,7,8,7,8};
-	// int n =10;
+	int n =10;
 
 	// auto it = min_element(arr,arr+n); // O(log(n))
 	// cout<<(*it)<<endl;
@@ -42,8 +42,8 @@ int main()
 	// auto sum = accumulate(arr,arr+n,0);
 	// cout<<sum<<endl;
 
-	// auto count1 = count(v.begin(),v.end(),6);
-	// cout<<(count1)<<endl;
+	auto count1 = count(v.begin(),v.end(),6);
+	cout<<(count1)<<endl;
 
 	// (1,2,3,4,9,11,2)
 	// int k=4;
